@@ -8,7 +8,6 @@ $nav_en_cours='inscription';?>
     <body>
     <?php
     include_once 'views/includes/header.php';?>
-    <h1>Rejoignez la communauté !</h1>
     <div id="lesFormConn">
         <div id="formCréa">
             <h2 id="h2titre">Inscription</h2>

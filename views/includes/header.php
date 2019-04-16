@@ -16,7 +16,7 @@ if (!isset($_SESSION['pseudo']) && !isset($_SESSION['mdp']))
                         ;}?>>Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php?page=tchat" <?php if ($nav_en_cours=='tchat' ) {echo
+                    <a class="nav-link" href="index.php?page=tchat&id=1" <?php if ($nav_en_cours=='tchat' ) {echo
                         ' id="en-cours"' ;}?>>Tchat !</a>
                 </li>
                 <li class="nav-item">
@@ -49,7 +49,7 @@ if (isset($_SESSION['pseudo']) && isset($_SESSION['mdp'])) {?>
                         ;}?>>Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php?page=tchat" <?php if ($nav_en_cours=='tchat' ) {echo
+                    <a class="nav-link" href="index.php?page=tchat&id=1" <?php if ($nav_en_cours=='tchat' ) {echo
                         ' id="en-cours"' ;}?>>Tchat !</a>
                 </li>
                 <li class="nav-item">

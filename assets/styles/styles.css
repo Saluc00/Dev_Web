@@ -125,7 +125,6 @@ body {
 #salons {
     background-color: #457b9d;
     padding: 20px 20px 20px 20px;
-
 }
 
 #amis {
@@ -137,7 +136,10 @@ body {
 
 #message {
     width: 65%;
-    padding: 20px 20px 20px 20px;
+    padding: 2vh 2vh 2vh 2vh ;
+    margin: auto;
+    max-height: 100vh;
+    overflow-y: scroll;
 }
 
 #formMessage {
