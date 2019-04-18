@@ -13,7 +13,7 @@ $nav_en_cours='connexion';?>
 
 
     <?php
-    include_once 'views/includes/header.php';?>
+    include_once 'views/includes/header.php'; ?>
 
     <div id="formConn">
         <h2 id="h2titre">Connexion</h2>

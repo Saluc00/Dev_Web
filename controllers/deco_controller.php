@@ -1,3 +1,4 @@
 <?php 
-unset($_SESSION);
-header ('location: index.php');
+
+$deconnexion = new deco;
+$deconnexion->Deconnexion_Compte();

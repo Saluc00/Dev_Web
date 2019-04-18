@@ -18,11 +18,12 @@
     <ul>
     <?php
     foreach ($salons as $salon) { ?>
-    <li><p str><a href="index.php?page=tchat&id=<?= $salon['salon_id']; ?>" class="decoLink"><?= ucfirst($salon['salon_nom']); ?></a></p></li>
+        <li><p str><a href="index.php?page=tchat&id=<?= $salon['salon_id']; ?>" class="decoLink"><?= ucfirst($salon['salon_nom']); ?></a></p></li>
     <hr>
 
     <?php
         } ?>
+        
     </ul>
 
 </div>

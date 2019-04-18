@@ -15,7 +15,7 @@ $nav_en_cours='tchat';?>
     include_once 'includes/header.php';?>
 
     <div id="container">
-    <?php
+        <?php
     if ($_GET['id']) {
 
         $idPage = $_GET['id'];

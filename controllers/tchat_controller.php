@@ -1,22 +1,11 @@
 <?php
-    if(!empty($_POST)) {
-        if(isset($_POST['messagebutton'])) {
-            if (isset($_POST['content']) && !empty($_POST['content'])) {
-                $idPage = $_GET['id'];
-                debug($idPage);
-                $req = $db->prepare('INSERT INTO message (username, content, fk_salon_id) VALUE (?, ?, ?)');
-                $req->execute([$_SESSION['pseudo'],$_POST['content'],$idPage]);
-            }
-            else {
-                echo '<p><strong>Vous devez renseigner un pseudo et un message ! :O</strong> </p>';
-            }
-        }
 
-        if(isset($_POST['salonbutton'])) {
-            if (isset($_POST['salon']) && !empty($_POST['salon'])) {
-                $req = $db->query('INSERT INTO salons (salon_nom) VALUE (\''.$_POST['salon'].'\')');
+// Création d'une instance d'objet
+$tchat = new tchat;
 
-            }
-        }
-    }
+// Utilisation de la methode de l'objet
+$tchat->Insert_Message();
+
+// Utilisation de la methode de l'objet
+$tchat->Insert_Salon();
 ?>

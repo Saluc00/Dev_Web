@@ -17,7 +17,8 @@ $nav_en_cours='accueil';?>
 
     <div id="presentation">
         <h2><strong>Bonsoir</strong> : Qu'est ce que c'est quoi ?</h2>
-        <p>C'est un site, sur lequel vous vous trouvez, <em>eh oui !!!!</em> , est un site dédié au tchat en ligne !<br>Bonne
+        <p>C'est un site, sur lequel vous vous trouvez, <em>eh oui !!!!</em> , est un site dédié au tchat en ligne
+            !<br>Bonne
             humeur et rigolade au rendez-vous !</p>
     </div>
     <div id="discuter">
